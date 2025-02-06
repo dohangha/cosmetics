@@ -2,6 +2,7 @@ import React from 'react'
 import Button from './Button'
 import './Footer.css'
 import { Link } from 'react-router-dom'
+import logo from '../images/my-logo2.png'
 
 const Footer = () => {
   return (
@@ -59,7 +60,7 @@ const Footer = () => {
         <section class='social-media'>
             <div class='social-media-wrap'>
                 <div class='footer-logo'>
-                    <Link to='/' className='social-logo'>HADO  <i class="fa fa-rss" aria-hidden="true"></i></Link>
+                    <Link to='/' className='social-logo'><img src={logo} alt="logo" width="100px"/>   </Link>
                 </div>
                 <small class='website-rights'>HADO © 2024</small>
                 <div class='social-icons'>
