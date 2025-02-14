@@ -65,7 +65,7 @@ const Cards = () => {
                   path='/sign-up'
                 />
               </ul>
-              <ul className='cards__items'>
+              <ul className='cards__items card-2'>
                 <CardItem
                   src='images/makeup-3.jpg'
                   text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
