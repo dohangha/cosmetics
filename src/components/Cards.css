@@ -31,6 +31,10 @@
     margin: 0 1rem;
     border-radius: 10px;
   }
+
+  .card-2{
+   padding-top: 24px;
+  }
   
   .cards__item__link {
     display: flex;
